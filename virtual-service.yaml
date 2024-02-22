@@ -4,7 +4,7 @@ metadata:
   name: vs-webapp
 spec:
   hosts:
-  - "example.com"
+  - "webapp1.example.com"
   gateways:
   - app-gateway
   http:
