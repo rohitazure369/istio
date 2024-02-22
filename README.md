@@ -8,7 +8,7 @@ helm repo update
 helm install istio-base istio/base -n istio-system --create-namespace
 helm install istiod istio/istiod -n istio-system 
 
-helm install istio-ingress istio/gateway -n istio-system  --create-namespace![image](https://github.com/rohitazure369/istio/assets/154504619/22661b78-9297-4c5c-a67a-3bd9b1b02fea)
+helm install istio-ingress istio/gateway -n istio-system  --create-namespace
 
 
 
