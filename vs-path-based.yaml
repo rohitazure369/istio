@@ -4,7 +4,7 @@ metadata:
   name: vs-path-webapp1
 spec:
   hosts:
-  - "example.com"
+  - example.com
   gateways:
   - istio-system/app-gateway # this is refering the app-gateway created inside istio-system namespace
   http:
