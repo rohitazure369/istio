@@ -6,7 +6,7 @@ spec:
   hosts:
   - webapp1.example.com
   gateways:
-  - istio-system/app-gateway # this is refering the app-gateway created inside istio-system namespace
+  - istio-system/host-gateway # this is refering the app-gateway created inside istio-system namespace
   http:
   - route:
     - destination:
