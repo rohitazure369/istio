@@ -6,7 +6,7 @@ spec:
   hosts:
   - "webapp1.example.com"
   gateways:
-  - app-gateway.istio-system.svc.cluster.local
+  - istio-system/app-gateway
   http:
   - route:
     - destination:
