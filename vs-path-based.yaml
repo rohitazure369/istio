@@ -10,12 +10,13 @@ spec:
   http:
   - match:
     - uri:
-        prefix: "/webapp2"
-      route:
-      - destination:
-          host: webapp2-svc
-          port:
-            number: 80
+        prefix: "/webapp"
+    route:
+    - destination:
+        host: webapp1-svc
+        port:
+          number: 80
+
   - match:
     - uri:
         prefix: "/"
