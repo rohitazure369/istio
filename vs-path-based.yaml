@@ -6,7 +6,7 @@ spec:
   hosts:
   - "*"
   gateways:
-  - istio-system/path-gateway # this is refering the app-gateway created inside istio-system namespace
+  - path-gateway # this is refering the app-gateway created inside istio-system namespace
   http:
   - match:
     - uri:
