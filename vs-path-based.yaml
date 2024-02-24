@@ -6,7 +6,7 @@ spec:
   hosts:
   - "abcd.com"
   gateways:
-  - path-gateway # this is referring to the app-gateway created inside the istio-system namespace
+  - gateway # this is referring to the app-gateway created inside the istio-system namespace
   http:
   - match:
     - uri:
