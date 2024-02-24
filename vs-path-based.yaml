@@ -13,7 +13,7 @@ spec:
         prefix: "/webapp2"
     route:
     - destination:
-        host: webapp2-svc
+        host: webapp1-svc
         port:
           number: 80
   - match:
