@@ -14,7 +14,8 @@ helm install istio-ingress istio/gateway -n istio-system  --create-namespace
 
 
 
-#Enable ISTIO Sidecar using below command to inject and enable ISTIO for namespace
+#
+Enable ISTIO Sidecar using below command to inject and enable ISTIO for namespace
 
 kubectl label namespace dev istio-injection=enabled
 
