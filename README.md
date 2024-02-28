@@ -37,7 +37,9 @@ kubectl get gateways -n istio-system
 
  ## create Virtual service in Dev Namespace.
 
- kubectl apply -f virtual-service.yaml -n dev
+ kubectl apply -f vs-host-based.yaml -n dev
+ #
+ kubectl apply -f vs-path-based.yaml -n dev
 
  # get virtual service details
  kubectl get vs -n dev
