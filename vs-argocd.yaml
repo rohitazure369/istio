@@ -1,15 +1,15 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: vs-webapp
+  name: vs-argocd
 spec:
   hosts:
-  - webapp1.abcd.com
+  - argocd.abcd.com
   gateways:
   - istio-system/gateway # this is refering the app-gateway created inside istio-system namespace
   http:
   - route:
     - destination:
-        host: webapp1-svc
+        host: argo-cd-argocd-server
         port:
-          number: 80
+          number: 443
