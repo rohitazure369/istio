@@ -12,4 +12,4 @@ spec:
     - destination:
         host: argo-cd-argocd-server
         port:
-          number: 443
+          number: 80
